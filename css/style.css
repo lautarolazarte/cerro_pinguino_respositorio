@@ -1,0 +1,231 @@
+@charset "UTF-8";
+body header {
+  background-color: #0E6973;
+  padding-bottom: 3vh; }
+  body header h1 {
+    color: #0D0D0D;
+    text-align: center;
+    font-family: 'Tinos', serif; }
+  body header .lista {
+    color: #262626;
+    font-family: 'Alegreya', serif;
+    font-family: 'Tinos', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around; }
+    body header .lista:hover {
+      color: #F26D85; }
+
+body .gridI {
+  background-color: #f2f2f2;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "imgI1 imgI2 imgI3"; }
+
+body .imgI1 {
+  height: 50vh;
+  width: 65vh;
+  display: grid;
+  grid-area: imgI1; }
+
+body .imgI2 {
+  height: 50vh;
+  width: 65vh;
+  display: grid;
+  grid-area: imgI1; }
+
+body .imgI3 {
+  height: 50vh;
+  width: 65vh;
+  display: grid;
+  grid-area: imgI1; }
+
+body {
+  background-color: #C1D0D9; }
+  body .pista {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column; }
+  body .aerosilla {
+    background-image: url(https://images.clarin.com/2015/03/25/Skkpto07g_1256x620.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh; }
+  body .tAerosilla {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+  body .tableA {
+    color: #222326;
+    width: 150vh;
+    height: 70vh; }
+  body .thA {
+    border-bottom: solid;
+    border-top: solid; }
+
+body div.gridEscuela {
+  border-radius: 2vh;
+  padding: 5vh;
+  display: block;
+  background-color: #f2f2f2;
+  display: grid;
+  align-content: space-between;
+  grid-row-gap: 5vh;
+  grid-template-columns: repeat(2, 3fr) 4fr;
+  grid-template-rows: repeat(4, 2fr);
+  grid-template-areas: "claseS claseS imgSn" "clasesE clasesE imgEs" "clasesN clasesN imgNi" "vid1 vid1 vid1"; }
+
+body div .clasesSnow {
+  border-top: solid;
+  border-top-color: #BF214B;
+  grid-area: claseS; }
+
+body .imgSnow {
+  border-top: solid;
+  border-top-color: #BF214B;
+  grid-area: imgSn;
+  background-image: url(https://cdn.shopify.com/s/files/1/2618/5696/articles/consemos-para-hacer-snowboa_1024x460.png?v=1577105958);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body div.clasesEsqui {
+  grid-area: clasesE;
+  border-top: solid;
+  border-top-color: #BF214B; }
+
+body .imgEsqui {
+  border-top: solid;
+  border-top-color: #BF214B;
+  grid-area: imgEs;
+  background-image: url(https://www.rockandpop.cl/wp-content/uploads/2019/08/concurso-pases-el-colorado.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+body div.clasesNiños {
+  border-top: solid;
+  grid-area: clasesN;
+  border-top-color: #BF214B; }
+
+body .imgNiños {
+  grid-area: imgNi;
+  background-image: url(https://st2.depositphotos.com/3243153/9145/i/600/depositphotos_91450972-stock-photo-two-children-skiing-in-snowy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid;
+  border-top-color: #BF214B; }
+
+body .video1 {
+  grid-area: vid1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2vh; }
+
+body {
+  background-color: #f2f2f2; }
+  body .compromisoAmbiental {
+    padding: 5vh;
+    border-top: solid;
+    border-top-color: #bf241b; }
+  body .video2 {
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+
+body {
+  background-color: #f2f2f2; }
+  body .contact {
+    background-color: #f2f2f2; }
+  body .cajaDeContacto {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50vh;
+    padding-right: 50vh;
+    padding-bottom: 5vh; }
+
+body .titulo {
+  color: #222326;
+  text-align: center;
+  text-align: center;
+  font-family: 'Tinos', serif; }
+
+body h2 {
+  color: #0D0D0D;
+  text-align: center;
+  font-family: 'Tinos', serif; }
+
+body p {
+  color: #727273;
+  font-family: 'Alegreya', serif;
+  font-family: 'Tinos', serif; }
+
+body .imgH3 {
+  color: #222326;
+  text-align: center;
+  text-align: center;
+  font-family: 'Tinos', serif; }
+  body .imgH3:hover {
+    color: #404040; }
+
+body .pContact {
+  color: #222326;
+  font-family: 'Alegreya', serif;
+  font-family: 'Tinos', serif;
+  text-align: center; }
+
+body footer {
+  background-color: #0E7373;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  body footer div .menu {
+    color: #0D0D0D;
+    font-family: 'Alegreya', serif;
+    font-family: 'Tinos', serif; }
+    body footer div .menu:hover {
+      color: #F26D85; }
+  body footer .titulosF {
+    color: #0D0D0D;
+    text-align: center;
+    font-family: 'Tinos', serif; }
+  body footer .footP {
+    color: #0D0D0D;
+    font-family: 'Alegreya', serif;
+    font-family: 'Tinos', serif; }
+
+@media screen and (max-width: 768px) {
+  header .lista {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 320px) {
+  header .lista {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width) {
+  .gridI {
+    grid-template-areas: "imgI1 imgI1 imgI1" "imgI2 imgI2 imgI2" "imgI3 imgI3 imgI3"; } }
+
+@media screen and (max-width: 768px) {
+  body div .gridEscuela {
+    grid-template-areas: "claseS claseS claseS" "imgSN imgSn imgSn" "clasesE clasesE clasesE" "imgEs imgEs imgEs" "clasesN clasesN clasesN"  "imgNi imgNi imgNi" "vid1 vid1 vid1"; } }
+
+@media screen and (max-width: 320px) {
+  body div .gridEscuela {
+    grid-template-areas: "claseS claseS claseS" "imgSn imgSn imgSn" "clasesE clasesE clasesE" "imgEs imgEs imgEs" "clasesN clasesN clasesN"  "imgNi imgNi imgNi" "vid1 vid1 vid1"; } }
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column; } }
